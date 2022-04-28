@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+
+}
+
+body {
+    background-image: linear-gradient(to right,#64a1d7,#9cc8f1 );
+
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #122b4e5e;
+
+}
+
+h1 {
+    color: #013173;
+    text-align: center;
+    text-shadow: 1px 1px 1px #122b4e;
+}
+
+h2 {
+    color: #013c8c;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Color Theme Swatches in Hex*/
+.ceu-e-azul-explicacao-1-hex { color: #013C8C; }
+.ceu-e-azul-explicacao-2-hex { color: #013173; }
+.ceu-e-azul-explicacao-3-hex { color: #64A1D7; }
+.ceu-e-azul-explicacao-4-hex { color: #9CC8F1; }
+.ceu-e-azul-explicacao-5-hex { color: #0474C2; }
+
+/* Retirado do site adobe.color.com (explorar)  */
