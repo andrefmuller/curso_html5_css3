@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+/*Utilizando a fonte Passion One do Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+/*font-family: 'Passion One', cursive;*/
+
+/*Utilizando a fonte Sriracha do Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/*font-family: 'Sriracha', cursive;*/
+
+
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
 body {
     background-color: white;
 }
@@ -7,11 +23,13 @@ body {
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100vh;;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -25,6 +43,8 @@ header > h1 {
     /* Para colocar todo o H1 do Header em maiúsculas:
     text-transform: uppercase;*/
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 7vw;
 }
 
 header > p {
@@ -46,6 +66,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
 }
 
 section.normal {
@@ -55,8 +77,11 @@ section.normal {
 }
 
 section.imagem {
+    display: inline-block;
     background-color: rgb(26, 25, 25);
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section.imagem > p {
