@@ -65,27 +65,46 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+    padding-left: 30px;
+}
+
 section.normal {
     background-color: white;
-    color: black;
-
 }
 
 section.imagem {
-    display: inline-block;
-    background-color: rgb(26, 25, 25);
+    background-color: rgba(26, 25, 25, 0.411);
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.24);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 5px;
+    margin-left: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432) ;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 footer {
@@ -102,7 +121,6 @@ footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-
 }
 
 footer a:hover {
