@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+caption {
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 25px;
+}
+
+table {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+thead th {
+    border: 2px dashed black;
+}
+
+tbody th {
+    border: 2px solid black;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+th.mulheres {
+    background-color: lightcoral;
+    color:crimson;
+}
+
+th.homens {
+    background-color: lightskyblue;
+    color: black;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
