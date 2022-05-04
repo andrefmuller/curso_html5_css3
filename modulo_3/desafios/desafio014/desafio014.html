@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14 - Tabelas</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <h1>Desafio 14 - Praticando HTML com Tabelas</h1>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="row">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>        
+        
+        <tbody>           
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td>9.5</td>
+                <td>7.8</td>
+                <td>8.65</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>7.8</td>
+                <td>9.4</td>
+                <td>8.6</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>7.8</td>
+                <td>8.0</td>
+                <td>7.9</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>7.0</td>
+                <td>8.0</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td class="media" colspan="4">Média de Exatas</td>
+                <td class="nota_media">8.16</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>História</td>
+                <td>6.5</td>
+                <td>9.8</td>
+                <td>8.15</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>8.7</td>
+                <td>9.0</td>
+                <td>8.85</td>
+            </tr>
+            <tr>
+                <td class="media" colspan="4">Média de Humanas</td>
+                <td class="nota_media">8.5</td>
+            </tr>
+        </tbody>      
+    </table>
+    
+</body>
+</html>

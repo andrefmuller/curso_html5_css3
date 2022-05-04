@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: lightgrey;
+}
+
+body h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+thead th {
+    font-weight: bolder;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+tbody th {
+    font-weight: bolder;
+    border: 2px solid black;
+    color: blue;
+    padding: 10px;
+}
+
+tbody td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+td.media {
+    font-weight: bolder;
+    text-align: left;
+    border: 2px solid black;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+td.nota_media {
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid black;
+    background-color: gray;
+    color: whitesmoke;
+}
